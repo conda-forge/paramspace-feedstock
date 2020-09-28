@@ -1,5 +1,5 @@
 {% set name = "paramspace" %}
-{% set version = "2.5.3" %}
+{% set version = "2.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 33259faa99337f812e282c8a042179aea686dda5e05447004589a38da8fcf8d1
+  sha256: 8694457abc46686b2e1bb0900a1c0381f1327c3955e3229a470be06db03d55fc
 
 build:
   number: 0
