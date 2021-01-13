@@ -5,9 +5,13 @@ Home: https://ts-gitlab.iup.uni-heidelberg.de/yunus/paramspace
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/paramspace-feedstock/blob/master/LICENSE.txt)
 
 Summary: Dictionary-based, multi-dimensional parameter space iteration
+
+Development: https://ts-gitlab.iup.uni-heidelberg.de/yunus/paramspace
+
+Documentation: https://paramspace.readthedocs.io/en/latest/
 
 paramspace is a python package that makes it easy to iterate over a
 multidimensional parameter space, where each point corresponds to a
