@@ -33,7 +33,7 @@ test:
     - pip check
 
 about:
-  home: https://ts-gitlab.iup.uni-heidelberg.de/yunus/paramspace
+  home: https://gitlab.com/blsqr/paramspace
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
@@ -45,7 +45,7 @@ about:
     dict-like object. It integrates tightly with YAML to make definition of
     parameter spaces and sweeps super simple.
   doc_url: https://paramspace.readthedocs.io/en/latest/
-  dev_url: https://ts-gitlab.iup.uni-heidelberg.de/yunus/paramspace
+  dev_url: https://gitlab.com/blsqr/paramspace
 
 extra:
   recipe-maintainers:
