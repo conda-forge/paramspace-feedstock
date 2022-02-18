@@ -1,7 +1,7 @@
 About paramspace
 ================
 
-Home: https://ts-gitlab.iup.uni-heidelberg.de/yunus/paramspace
+Home: https://gitlab.com/blsqr/paramspace
 
 Package license: BSD-2-Clause
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/paramspace-feed
 
 Summary: Dictionary-based, multi-dimensional parameter space iteration
 
-Development: https://ts-gitlab.iup.uni-heidelberg.de/yunus/paramspace
+Development: https://gitlab.com/blsqr/paramspace
 
 Documentation: https://paramspace.readthedocs.io/en/latest/
 
@@ -65,7 +65,8 @@ conda search paramspace --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
