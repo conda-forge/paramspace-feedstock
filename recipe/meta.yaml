@@ -6,20 +6,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 78d5d6283ae18367979554c8ea16d483b70a2923afdc7879b9dd38dcb5b82981
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - numpy >=1.17.3
     - ruamel.yaml >=0.16.5
     - xarray >=0.10.9
@@ -29,6 +29,7 @@ test:
     - paramspace
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
