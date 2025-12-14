@@ -1,5 +1,5 @@
 {% set name = "paramspace" %}
-{% set version = "2.5.9" %}
+{% set version = "2.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 78d5d6283ae18367979554c8ea16d483b70a2923afdc7879b9dd38dcb5b82981
+  sha256: d96d93f8af734b334548d3edf16bde335d4f4d9fd5e67a3c88955fd7772db242
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
